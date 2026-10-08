@@ -2,13 +2,20 @@
 Created by Kevin Hill, Dallas DBAs LLC, 12/28/2018
 Inspired by work from Jules Behrens
 Index tested by Peter Schott
+
 This queries multiple SSISDB tables to return a clear path from Top to bottom 
 related to errors in an Integration Services Catalog based SSIS package.
+
 It has not yet been tied back to job execution, nor is it set to email info out.
+
 Use this as a backup to your normal job failure checks to tie it all together
 instead of spending a full cup of coffee clicking and drilling into the cumbersome 
 All Executions report.
+
 Free to use and modify, please leave this header as a courtesy.
+
+https://dallasdbas.com/integration-services-catalog-package-errors/
+
 */
 USE SSISDB;
 
